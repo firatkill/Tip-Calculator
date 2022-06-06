@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(134, 187, 216);
+}
+.container {
+  width: 50%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 10%;
+}
+form {
+  padding: 1rem;
+}
+
+#header {
+  background-color: rgb(51, 102, 153);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  color: White;
+}
+.form-group:nth-child(2) {
+  margin-top: 1rem;
+}
+.form-group label {
+  font-weight: 600;
+}
+.form-group div {
+  height: 2.5rem;
+}
+.form-group div i {
+  font-size: 2.5rem;
+  border-radius: 3px 0 0 3px;
+}
+.form-group input {
+  height: 2.5rem;
+  border-radius: 0 3px 3px 0;
+}
+form .fas {
+  background-color: rgb(51, 102, 153);
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+form select {
+  width: 100%;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+}
+form #buttonwrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+form #buttonwrapper button {
+  background-color: rgb(51, 102, 153);
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
